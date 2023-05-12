@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float</title>
+    <style>
+       body{
+        background-color: #ccc;
+       }
+       #site{
+        background-color: #fff;
+        width: 1024px;
+       }
+       #caixa1{
+        background-color: #f00;
+        width: 400px;
+        height: 300px;
+        float: left;
+       }
+       #caixa2{
+        background-color: #00f;
+        width: 400px;
+        height: 300px;
+        float: right;
+       }
+       #caixabaixo{
+        background-color: #0f0;
+        width: 100%;
+        height: 200px;
+        clear: both;
+       }
+    </style>
+    
+</head>
+<body>
+   <div id="site">
+      <div id="caixa1">floating</div>
+      <div id="caixa2">floating</div>
+      <div id="caixabaixo">not floating</div>
+   </div>
+
+    
+</body>
+</html>
